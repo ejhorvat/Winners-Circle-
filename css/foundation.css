@@ -3830,22 +3830,22 @@ blockquote p {
 
 @media only screen and (min-width: 40.063em) {
   .tooltip > .nub {
-    border-color: transparent transparent #333333 transparent;
+    border-color: transparent transparent #CCCCCC transparent;
     top: -10px; }
   .tooltip.tip-top > .nub {
-    border-color: #333333 transparent transparent transparent;
+    border-color: #CCCCCC transparent transparent transparent;
     top: auto;
     bottom: -10px; }
   .tooltip.tip-left, .tooltip.tip-right {
     float: none !important; }
   .tooltip.tip-left > .nub {
-    border-color: transparent transparent transparent #333333;
+    border-color: transparent transparent transparent #CCCCCC;
     right: -10px;
     left: auto;
     top: 50%;
     margin-top: -5px; }
   .tooltip.tip-right > .nub {
-    border-color: transparent #333333 transparent transparent;
+    border-color: transparent #CCCCCC transparent transparent;
     right: auto;
     left: -10px;
     top: 50%;
@@ -3888,7 +3888,7 @@ blockquote p {
   position: absolute;
   top: 50%;
   left: 50%;
-  color: #AAAAAA;
+  color: #CCCCCC;
   font-size: 0.6em; }
 
 .visible-img {
@@ -3931,12 +3931,16 @@ blockquote p {
 .clearing-assembled .clearing-container {
   height: 100%; }
   .clearing-assembled .clearing-container .carousel > ul {
-    display: none; }
+    display: hidden; }
+    
+.carousel {
+display: hidden
+}
 
 .clearing-feature li {
-  display: none; }
+  display: hidden; }
   .clearing-feature li.clearing-featured-img {
-    display: block; }
+    display: hidden; }
 
 @media only screen and (min-width: 40.063em) {
   .clearing-main-prev,
@@ -3975,24 +3979,24 @@ blockquote p {
     opacity: 0.3; }
 
   .clearing-assembled .clearing-container .carousel {
-    background: rgba(51, 51, 51, 0.8);
+    display: none;
+    background: rgba(255, 255, 255, 1);
     height: 120px;
-    margin-top: 10px;
     text-align: center; }
     .clearing-assembled .clearing-container .carousel > ul {
-      display: inline-block;
+      display: none;
       z-index: 999;
-      height: 100%;
+      height: 0%;
       position: relative;
       float: none; }
       .clearing-assembled .clearing-container .carousel > ul li {
-        display: block;
+        display: none;
         width: 120px;
         min-height: inherit;
         float: left;
         overflow: hidden;
         margin-right: 0;
-        padding: 0;
+        padding: 10px;
         position: relative;
         cursor: pointer;
         opacity: 0.4;
@@ -4003,7 +4007,7 @@ blockquote p {
         .clearing-assembled .clearing-container .carousel > ul li a.th {
           border: none;
           box-shadow: none;
-          display: block; }
+          display: none; }
         .clearing-assembled .clearing-container .carousel > ul li img {
           cursor: pointer !important;
           width: 100% !important; }
@@ -4012,9 +4016,9 @@ blockquote p {
         .clearing-assembled .clearing-container .carousel > ul li:hover {
           opacity: 0.8; }
   .clearing-assembled .clearing-container .visible-img {
-    background: #333333;
+    background: #FFFFFF;
     overflow: hidden;
-    height: 85%; }
+    height: 100%; }
 
   .clearing-close {
     position: absolute;
