@@ -3867,7 +3867,7 @@ blockquote p {
     margin-right: 0; }
 
 .clearing-blackout {
-  background: #CCCCCC;
+  background: #FFFFFF;
   position: fixed;
   width: 100%;
   height: 100%;
@@ -3875,9 +3875,12 @@ blockquote p {
   left: 0;
   z-index: 998; }
   .clearing-blackout .clearing-close {
-    display: block; }
+    display: block;
+    background: #FFFFFF }
+    
 
 .clearing-container {
+  background: #FFFFFF;
   position: relative;
   z-index: 998;
   height: 100%;
@@ -3888,11 +3891,11 @@ blockquote p {
   position: absolute;
   top: 50%;
   left: 50%;
-  color: #CCCCCC;
+  color: #FFFFFF;
   font-size: 0.6em; }
 
 .visible-img {
-  height: 95%;
+  height: 100%;
   position: relative; }
   .visible-img img {
     position: absolute;
@@ -3905,13 +3908,13 @@ blockquote p {
     max-width: 100%; }
 
 .clearing-caption {
-  color: #CCCCCC;
+  color: #FFFFFF;
   font-size: 0.875em;
   line-height: 1.3;
   margin-bottom: 0;
   text-align: center;
   bottom: 0;
-  background: #CCCCCC;
+  background: #FFFFFF;
   width: 100%;
   padding: 10px 30px 20px;
   position: absolute;
